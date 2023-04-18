@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#previous,
+#next {
+  margin: 10px;
+  padding: 2px;
+  outline: 1px solid black;
+}
+
+#previous:hover,
+#next:hover {
+  cursor: pointer;
+}
+
+.picture {
+  height: 500px;
+  width: 500px;
+}
+
+#bubbles {
+  display: flex;
+  
+}
+
+.bubble {
+  margin: 10px;
+  height: 10px;
+  width: 10px;
+  outline: 1px solid black;
+  border-radius: 5px;  
+}
+
+.bubble:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+}

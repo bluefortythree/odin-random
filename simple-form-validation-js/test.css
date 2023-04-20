@@ -1,0 +1,12 @@
+form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+span {
+  color: red;
+}
